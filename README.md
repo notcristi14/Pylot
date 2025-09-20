@@ -110,7 +110,7 @@ Pylot is packed with a wide range of functionalities to give you command-line co
 
 
 
- #  6. Important Disclaimer #
+#  7.   Important Disclaimer #
 
    This tool gives you direct control over your computer. Please be careful when using it. The `system shutdown`, `system restart`, and `kill` commands will take immediate action on your PC. Use at your own risk.
 
