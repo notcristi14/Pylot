@@ -44,7 +44,7 @@ Pylot is packed with a wide range of functionalities to give you command-line co
    `pip install pyautogui
     pip install pyperclip`
 
-4. # Usage
+#  4. Usage  #
 
    Run the script from your terminal and enter commands when prompted.
 
@@ -52,7 +52,7 @@ Pylot is packed with a wide range of functionalities to give you command-line co
                 
    
 
-    #   5.   Avaliable Commands #
+#  5.   Avaliable Commands  #
 
    # Command               # Syntax                                   # Description
 
