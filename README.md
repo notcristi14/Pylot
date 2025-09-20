@@ -34,8 +34,8 @@ Pylot is packed with a wide range of functionalities to give you command-line co
 
   1. # Clone this repositor:
 
-     `git clone` [https://github.com/notcristi14/Pylot.git](https://github.com/notcristi14/Pylot.git)
-     `cd Pylot`
+     `git clone [https://github.com/notcristi14/Pylot.git](https://github.com/notcristi14/Pylot.git)
+     cd Pylot`
 
  
 
