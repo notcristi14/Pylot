@@ -106,9 +106,10 @@ Pylot is packed with a wide range of functionalities to give you command-line co
 
    `screenshot`           `screenshot`                                   Takes a screenshot and saves it as a PNG file.  
 
+   `get_displays`        `get_displays`                                  Shows information about connected monitors (name, refresh rate, etc.).
+
    `exit`                 `exit`                                         Quits the application.  
    
-   `get_displays`        `get_displays`                                  Shows information about connected monitors (name, refresh rate, etc.).
 
 
 
