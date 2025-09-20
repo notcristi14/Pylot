@@ -52,7 +52,7 @@ Pylot is packed with a wide range of functionalities to give you command-line co
                 
    
 
- 5.  # Avaliable Commands
+#  5.   Avaliable Commands #
 
    # Command               # Syntax                                   # Description
 
@@ -110,18 +110,18 @@ Pylot is packed with a wide range of functionalities to give you command-line co
 
 
 
- 6.  ⚠️ # Important Disclaimer ⚠️
+ #  6.  ⚠️ Important Disclaimer  ⚠️ #
 
    This tool gives you direct control over your computer. Please be careful when using it. The `system shutdown`, `system restart`, and `kill` commands will take immediate action on your PC. Use at your own risk.
 
 
 
- 7.   # License
+#  7.   License #
 
    This project is licensed under the MIT License.
 
 
 
-8.  # Contributing
+# 8.  Contributing #
 
   Contributions are welcome! If you have an idea for a new command or a bug fix, feel free to open an issue or submit a pull request.
