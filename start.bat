@@ -1,1 +1,6 @@
-py main.py
+@echo off
+echo Installing required packages...
+pip install -U -r requirements.txt
+echo Launching the desktop automation tool...
+python main.py
+pause
