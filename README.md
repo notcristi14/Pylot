@@ -54,7 +54,7 @@ Pylot is packed with a wide range of functionalities to give you command-line co
 
 #  5.   Avaliable Commands  #
 
-#  Command  #               #  Syntax                                 #  Description    
+#  Command                 #  Syntax                                 #  Description    
 
 
 
