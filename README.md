@@ -54,61 +54,61 @@ Pylot is packed with a wide range of functionalities to give you command-line co
 
 #  5.   Avaliable Commands  #
 
-   #  Command              Syntax                                   Description    
+   #  Command                 Syntax                                    Description    
 
 
 
-   `start`                 `start [program_name]`                    # Executes a program (e.g., `start chrome.exe`).  #
+   `start`                    `start [program_name]`                    # Executes a program (e.g., `start chrome.exe`).  #
 
-   `open`                  `open [url/path]`                         # Opens a URL in your default browser or a folder/file.  #
+   `open`                  `open [url/path]`                            # Opens a URL in your default browser or a folder/file.  #
 
-   `open_and_screenshot`   `open_and_screenshot [url]`               # Opens a URL, waits 5 seconds, and takes a screenshot.  #
+   `open_and_screenshot`   `open_and_screenshot [url]`                  # Opens a URL, waits 5 seconds, and takes a screenshot.  #
 
-   `window`                `window [maximize/minimize/close]`        # Manages the active window.  #
+   `window`                `window [maximize/minimize/close]`           # Manages the active window.  #
 
-   `type`                  `type [text]`                             # Types a string of text.  #
+   `type`                  `type [text]`                                # Types a string of text.  #
 
-   `press`                 `press [key]`                             # Simulates a single key press (e.g., `enter`, `space`).  #
+   `press`                 `press [key]`                                # Simulates a single key press (e.g., `enter`, `space`).  #
 
-   `hotkey`                `hotkey [key1] [key2]...`                 # Simulates a key combination (e.g., `hotkey ctrl c`).  #
+   `hotkey`                `hotkey [key1] [key2]...`                    # Simulates a key combination (e.g., `hotkey ctrl c`).  #
 
-   `move_mouse`            `move_mouse [x] [y]`                      # Moves the cursor to the specified coordinates.  #
+   `move_mouse`            `move_mouse [x] [y]`                         # Moves the cursor to the specified coordinates.  #
 
-   `click`                 `click [left/right] [x] [y]`              # Clicks the mouse at the given coordinates.  #
+   `click`                 `click [left/right] [x] [y]`                 # Clicks the mouse at the given coordinates.  #
 
-   `volume`                `volume [up/down]`                        # Controls the system volume.  #
+   `volume`                `volume [up/down]`                           # Controls the system volume.  #
 
-   `wait`                  `wait [seconds]`                          # Pauses the script for a specified time.  #
+   `wait`                  `wait [seconds]`                             # Pauses the script for a specified time.  #
 
-   `calculate`             `calculate [expression]`                  # Opens the Calculator app and solves the expression.  #
+   `calculate`             `calculate [expression]`                     # Opens the Calculator app and solves the expression.  #
 
-   `copy`                  `copy [text]`                             # Copies the provided text to the clipboard.  #
+   `copy`                  `copy [text]`                                # Copies the provided text to the clipboard.  #
 
-   `paste`                 `paste`                                   # Pastes text from the clipboard.  #
+   `paste`                 `paste`                                      # Pastes text from the clipboard.  #
 
-   `create_file`           `create_file [path]`                      # Creates a new, empty file.  #
+   `create_file`           `create_file [path]`                         # Creates a new, empty file.  #
 
-   `delete_file`           `delete_file [path]`                      # Deletes a file.  #
+   `delete_file`           `delete_file [path]`                         # Deletes a file.  #
 
-   `rename_file`           `rename_file [old_path] [new_path]`       # Renames a file.  #
+   `rename_file`           `rename_file [old_path] [new_path]`          # Renames a file.  #
 
-   `list_files`            `list_files [path]`                       # Lists files and folders in a directory.  #
+   `list_files`            `list_files [path]`                          # Lists files and folders in a directory.  #
   
-   `kill`                  `kill [process_name]`                     # Terminates a process (e.g., kill notepad.exe).  #
+   `kill`                  `kill [process_name]`                        # Terminates a process (e.g., kill notepad.exe).  #
 
-   `list_processes`       `list_processes`                           # Displays a list of all running processes.  #
+   `list_processes`       `list_processes`                              # Displays a list of all running processes.  #
 
-   `get_screen_size`      `get_screen_size`                          # Shows your screen resolution.  #
+   `get_screen_size`      `get_screen_size`                             # Shows your screen resolution.  #
 
-   `show_time`            `show_time`                                # Displays the current system time.  #
+   `show_time`            `show_time`                                   # Displays the current system time.  #
 
-   `system`               `system [shutdown/restart]`                # Shuts down or restarts the system.  #
+   `system`               `system [shutdown/restart]`                   # Shuts down or restarts the system.  #
 
-   `screenshot`           `screenshot`                               # Takes a screenshot and saves it as a PNG file.  #
+   `screenshot`           `screenshot`                                  # Takes a screenshot and saves it as a PNG file.  #
 
-   `exit`                 `exit`                                     # Quits the application.  #
+   `exit`                 `exit`                                        # Quits the application.  #
    
-   `get_displays`        `get_displays`                              # Shows information about connected monitors (name, refresh rate, etc.).  #
+   `get_displays`        `get_displays`                                 # Shows information about connected monitors (name, refresh rate, etc.).  #
 
 
 
