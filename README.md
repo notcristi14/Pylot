@@ -1,3 +1,7 @@
+# Pylot: A Python PC Control Tool
+
+Pylot is a command-line tool written in Python that allows you to control your computer's mouse, keyboard, and system with simple, text-based commands. It's a fun and practical project for learning about system automation and the capabilities of Python libraries like `pyautogui` and `subprocess`.
+
 # Features
 
 Pylot is packed with a wide range of functionalities to give you command-line control over your PC:
