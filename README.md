@@ -28,23 +28,23 @@ Pylot is packed with a wide range of functionalities to give you command-line co
 
 - # Web Automation: Open a URL and take a screenshot after a delay.
 
-  # Installation
+  1. # Installation
 
   This tool requires Python and a few external libraries.
 
-  1. # Clone this repositor:
+   2.  # Clone this repositor:
 
      `git clone [https://github.com/notcristi14/Pylot.git](https://github.com/notcristi14/Pylot.git)
      cd Pylot`
 
  
 
-  2. # Install dependencies:
+  3. # Install dependencies:
 
    `pip install pyautogui
     pip install pyperclip`
 
-3. # Usage
+4. # Usage
 
    Run the script from your terminal and enter commands when prompted.
 
@@ -52,7 +52,7 @@ Pylot is packed with a wide range of functionalities to give you command-line co
                 
    
 
-   # Avaliable Commands
+ 5.  # Avaliable Commands
 
    # Command               # Syntax                                   # Description
 
@@ -110,18 +110,18 @@ Pylot is packed with a wide range of functionalities to give you command-line co
 
 
 
-   ⚠️ # Important Disclaimer ⚠️
+ 6.  ⚠️ # Important Disclaimer ⚠️
 
    This tool gives you direct control over your computer. Please be careful when using it. The `system shutdown`, `system restart`, and `kill` commands will take immediate action on your PC. Use at your own risk.
 
 
 
-    # License
+ 7.   # License
 
    This project is licensed under the MIT License.
 
 
 
-  # Contributing
+8.  # Contributing
 
   Contributions are welcome! If you have an idea for a new command or a bug fix, feel free to open an issue or submit a pull request.
