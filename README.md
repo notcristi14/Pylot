@@ -50,7 +50,7 @@ Pylot is packed with a wide range of functionalities to give you command-line co
 
    # Avaliable Commands
 
-   # Command               #Syntax                                   #Description
+   # Command               # Syntax                                   # Description
 
    `start`                 `start [program_name]`                    # Executes a program (e.g., `start chrome.exe`).
 
@@ -112,7 +112,7 @@ Pylot is packed with a wide range of functionalities to give you command-line co
 
 
 
-   License
+    # License
 
    This project is licensed under the MIT License.
 
