@@ -304,9 +304,44 @@ def list_processes():
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
 
+def get_display_info():
+    """
+    Prints information about connected monitors, including name and refresh rate.
+    Note: This command is designed for Windows and may not work on other operating systems.
+    """
+    try:
+        # Use WMIC command to get display info on Windows
+        command = 'wmic path Win32_VideoController get Name,CurrentRefreshRate,DriverVersion'
+        output = subprocess.run(command.split(), capture_output=True, text=True, check=True)
+        lines = output.stdout.strip().split('\n')
+        
+        # Parse the output
+        if len(lines) > 1:
+            headers = lines[0].split()
+            data_lines = lines[1:]
+            
+            print(f"Found {len(data_lines)} display(s) connected:")
+            for line in data_lines:
+                # Split the line by a variable number of spaces
+                parts = line.strip().split()
+                if len(parts) >= 2:
+                    name = ' '.join(parts[:-2])
+                    refresh_rate = parts[-2]
+                    driver_version = parts[-1]
+                    print(f" - Name: {name}, Max Refresh Rate: {refresh_rate} Hz, Driver Version: {driver_version}")
+        else:
+            print("No display information found.")
+    except FileNotFoundError:
+        print("Error: 'wmic' command not found. This command is available on Windows systems.")
+    except subprocess.CalledProcessError as e:
+        print(f"An error occurred while running wmic: {e.stderr}")
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+
+
 def main():
     while True:
-        user_command = input("What command do you want to execute? (e.g., 'start chrome.exe', 'open https://www.google.com', 'screenshot', 'press enter', 'click left 100 200', 'volume up', 'window maximize', 'type hello world', 'copy my_text', 'paste', 'wait 5', 'calculate 2+2', 'get_screen_size', 'show_time', 'kill notepad.exe', 'create_file C:\\test.txt', 'rename_file old.txt new.txt', 'system shutdown', 'move_mouse 100 200', 'hotkey ctrl shift s', 'open_path C:\\Users', 'list_files C:\\', 'list_processes', or 'exit' to quit): ")
+        user_command = input("What command do you want to execute? (e.g., 'start chrome.exe', 'open https://www.google.com', 'screenshot', 'press enter', 'click left 100 200', 'volume up', 'window maximize', 'type hello world', 'copy my_text', 'paste', 'wait 5', 'calculate 2+2', 'get_screen_size', 'show_time', 'kill notepad.exe', 'create_file C:\\test.txt', 'rename_file old.txt new.txt', 'system shutdown', 'move_mouse 100 200', 'hotkey ctrl shift s', 'open_path C:\\Users', 'list_files C:\\', 'list_processes', 'get_displays', or 'exit' to quit): ")
 
         if user_command.lower() == 'exit':
             print("Exiting the control tool.")
@@ -330,6 +365,8 @@ def main():
                 show_time()
             elif action == 'list_processes':
                 list_processes()
+            elif action == 'get_displays':
+                get_display_info()
             elif len(command_parts) > 1:
                 argument = command_parts[1]
                 
