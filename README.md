@@ -30,24 +30,22 @@ Pylot is packed with a wide range of functionalities to give you command-line co
 
   1. # Clone this repositor:
 
-     ` git clone [https://github.com/notcristi14/Pylot.git](https://github.com/notcristi14/Pylot.git)
+     `git clone [https://github.com/notcristi14/Pylot.git](https://github.com/notcristi14/Pylot.git)
+     cd Pylot`
 
-       cd pylot
-
-     `
+ 
 
   2. # Install dependencies:
 
- ` pip install pyautogui
-
-   pip install pyperclip`
+   `pip install pyautogui
+    pip install pyperclip`
 
 3. # Usage
 
    Run the script from your terminal and enter commands when prompted.
 
-   `python main.py
-
+   `python main.py`
+                
    
 
    # Avaliable Commands
