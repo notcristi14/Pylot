@@ -30,7 +30,7 @@ Pylot is packed with a wide range of functionalities to give you command-line co
 
    1. Installation
 
-  #  This tool requires Python and a few external libraries.   #
+  This tool requires Python and a few external libraries.
 
    2.  Clone this repositor:
 
