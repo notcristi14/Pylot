@@ -28,11 +28,11 @@ Pylot is packed with a wide range of functionalities to give you command-line co
 
 - # Web Automation: Open a URL and take a screenshot after a delay.
 
-  #  1. Installation  #
+   1. Installation
 
   #  This tool requires Python and a few external libraries.   #
 
-   #  2.  Clone this repositor:  #
+   2.  Clone this repositor:
 
      `git clone [https://github.com/notcristi14/Pylot.git](https://github.com/notcristi14/Pylot.git)
      cd Pylot`
